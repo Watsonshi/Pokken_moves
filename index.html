@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokkén Tournament DX - 寶可夢招式表</title>
+    <style>
+    
+body {
+    font-family: 'Arial', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2d2d2d;
+    color: white;
+}
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+h2 {
+    background-color: #595959;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 40px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    background-color: #3d3d3d;
+}
+th {
+    background-color: #5b7a48;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+td {
+    padding: 12px;
+    border-bottom: 1px solid #4d4d4d;
+}
+tr:nth-child(even) {
+    background-color: #333333;
+}
+tr:nth-child(odd) {
+    background-color: #3d3d3d;
+}
+tr:hover {
+    background-color: #4d4d4d;
+}
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.pokemon-info {
+    flex: 1;
+    background-color: #3d3d3d;
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.pokemon-image {
+    flex: 1;
+    background-color: #3d3d3d;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+.pokemon-image img {
+    max-width: 300px;
+    max-height: 300px;
+}
+a {
+    color: #5b7a48;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+    .pokemon-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 20px;
+        margin-top: 30px;
+    }
+    .pokemon-card {
+        background-color: #3d3d3d;
+        border-radius: 10px;
+        padding: 15px;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+    .pokemon-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+    .pokemon-card img {
+        max-width: 100px;
+        max-height: 100px;
+        margin-bottom: 10px;
+    }
+    .pokemon-card a {
+        color: white;
+        text-decoration: none;
+    }
+    .pokemon-card a:hover {
+        text-decoration: underline;
+    }
+    </style>
+</head>
+<body>
+    <h1>Pokkén Tournament DX - 寶可夢招式表</h1>
+    <div class="pokemon-list">
+
+    <div class="pokemon-card">
+        <img src="images/lucario.jpg" alt="路卡利歐">
+        <h3><a href="路卡利歐.html">路卡利歐</a></h3>
+    </div>
+
+    <div class="pokemon-card">
+        <img src="images/pikachu.jpg" alt="皮卡丘">
+        <h3><a href="皮卡丘.html">皮卡丘</a></h3>
+    </div>
+
+    <div class="pokemon-card">
+        <img src="images/pikachulibre.jpg" alt="摔角皮卡丘">
+        <h3><a href="摔角皮卡丘.html">摔角皮卡丘</a></h3>
+    </div>
+
+    <div class="pokemon-card">
+        <img src="images/machamp.jpg" alt="怪力">
+        <h3><a href="怪力.html">怪力</a></h3>
+    </div>
+
+    <div class="pokemon-card">
+        <img src="images/blaziken.jpg" alt="火焰雞">
+        <h3><a href="火焰雞.html">火焰雞</a></h3>
+    </div>
+
+    <div class="pokemon-card">
+        <img src="images/charizard.jpg" alt="噴火龍">
+        <h3><a href="噴火龍.html">噴火龍</a></h3>
+    </div>
+
+    <div class="pokemon-card">
+        <img src="images/gengar.jpg" alt="耿鬼">
+        <h3><a href="耿鬼.html">耿鬼</a></h3>
+    </div>
+
+    <div class="pokemon-card">
+        <img src="images/mewtwo.jpg" alt="超夢">
+        <h3><a href="超夢.html">超夢</a></h3>
+    </div>
+
+    <div class="pokemon-card">
+        <img src="images/shadowmewtwo.jpg" alt="暗影超夢">
+        <h3><a href="暗影超夢.html">暗影超夢</a></h3>
+    </div>
+
+    <div class="pokemon-card">
+        <img src="images/suicune.jpg" alt="水君">
+        <h3><a href="水君.html">水君</a></h3>
+    </div>
+
+    <div class="pokemon-card">
+        <img src="images/gardevoir.jpg" alt="沙奈朵">
+        <h3><a href="沙奈朵.html">沙奈朵</a></h3>
+    </div>
+
+    <div class="pokemon-card">
+        <img src="images/weavile.jpg" alt="瑪狃拉">
+        <h3><a href="瑪狃拉.html">瑪狃拉</a></h3>
+    </div>
+
+    <div class="pokemon-card">
+        <img src="images/sceptile.jpg" alt="蜥蜴王">
+        <h3><a href="蜥蜴王.html">蜥蜴王</a></h3>
+    </div>
+
+    <div class="pokemon-card">
+        <img src="images/chandelure.jpg" alt="水晶燈火靈">
+        <h3><a href="水晶燈火靈.html">水晶燈火靈</a></h3>
+    </div>
+
+    <div class="pokemon-card">
+        <img src="images/darkrai.jpg" alt="達克萊伊">
+        <h3><a href="達克萊伊.html">達克萊伊</a></h3>
+    </div>
+
+    <div class="pokemon-card">
+        <img src="images/scizor.jpg" alt="巨鉗螳螂">
+        <h3><a href="巨鉗螳螂.html">巨鉗螳螂</a></h3>
+    </div>
+
+    <div class="pokemon-card">
+        <img src="images/empoleon.jpg" alt="帝王拿波">
+        <h3><a href="帝王拿波.html">帝王拿波</a></h3>
+    </div>
+
+    <div class="pokemon-card">
+        <img src="images/croagunk.jpg" alt="不良蛙">
+        <h3><a href="不良蛙.html">不良蛙</a></h3>
+    </div>
+
+    <div class="pokemon-card">
+        <img src="images/garchomp.jpg" alt="烈咬陸鯊">
+        <h3><a href="烈咬陸鯊.html">烈咬陸鯊</a></h3>
+    </div>
+
+    <div class="pokemon-card">
+        <img src="images/braixen.jpg" alt="火狐狸">
+        <h3><a href="火狐狸.html">火狐狸</a></h3>
+    </div>
+
+    <div class="pokemon-card">
+        <img src="images/decidueye.jpg" alt="狙射樹梟">
+        <h3><a href="狙射樹梟.html">狙射樹梟</a></h3>
+    </div>
+
+    <div class="pokemon-card">
+        <img src="images/aegislash.jpg" alt="堅盾劍怪">
+        <h3><a href="堅盾劍怪.html">堅盾劍怪</a></h3>
+    </div>
+
+    <div class="pokemon-card">
+        <img src="images/blastoise.jpg" alt="水箭龜">
+        <h3><a href="水箭龜.html">水箭龜</a></h3>
+    </div>
+
+    </div>
+    <div style="text-align: center; margin-top: 30px; color: #888;">
+        <p>資料來源: Serebii.net - 自動生成招式表</p>
+    </div>
+</body>
+</html>
